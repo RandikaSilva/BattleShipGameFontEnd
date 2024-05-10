@@ -1,70 +1,44 @@
-# Getting Started with Create React App
+# Battleships Game
+![Battleships Game](https://github.com/your_username/battleships-game/blob/main/image.jpg)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to Battleships, a classic strategy game built with React and Axios. Sink your opponent's ships before they sink yours!
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- Player vs Computer gameplay
+- Real-time feedback on hits and misses
+- Game over message when one of the players wins
+- Replay option to start a new game
 
-### `npm start`
+## How to Play
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+1. **Start the Game**: Open the game in your browser.
+2. **View Boards**: Two game boards will be displayed, one for your ships and one for the computer's ships.
+3. **Fire Shots**: Click on the computer's board to fire a shot.
+4. **Receive Feedback**: Receive feedback on whether your shot was a hit or a miss.
+5. **Keep Playing**: Continue firing shots until one player sinks all of the opponent's ships.
+6. **Game Over**: Once the game is over, a message will be displayed indicating the winner.
+7. **Replay**: Click the "Replay" button to start a new game.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Technologies Used
 
-### `npm test`
+- **React**: A JavaScript library for building user interfaces.
+- **Axios**: A promise-based HTTP client for making requests to the server.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## How to Run Locally
 
-### `npm run build`
+1. **Clone Repository**: Clone this repository to your local machine.
+   ```bash
+   git clone https://github.com/your_username/battleships-game.git
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+2. **Navigate to the Directory**: Change your current directory to the cloned repository directory.
+3. **Install Dependencies**: Install the project dependencies using npm.
+4. **Start the Development Server**: Start the development server to launch the application in your default web browser.
+5. **Access the Application**: Open your web browser and navigate to `http://localhost:3000` to access the Battleships game. You will see the game interface with two boards: one for your ships and one for the computer's ships.
+6. **Gameplay**: Click on the computer's board to fire shots at their ships. The game will indicate hits and misses, and it will display messages when the game ends.
+7. **Replay**: If you want to play again after the game ends, click the "Replay" button.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Screenshots
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+![Gameplay Screenshot](/img//game-screen%20shot.png)
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
