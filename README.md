@@ -28,7 +28,7 @@ Welcome to Battleships, a classic strategy game built with React and Axios. Sink
 
 1. **Clone Repository**: Clone this repository to your local machine.
    ```bash
-   git clone https://github.com/your_username/battleships-game.git
+   git clone https://github.com/RandikaSilva/BattleShipGameFontEnd.git
 
 2. **Navigate to the Directory**: Change your current directory to the cloned repository directory.
 3. **Install Dependencies**: Install the project dependencies using npm.
