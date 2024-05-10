@@ -1,5 +1,4 @@
 # Battleships Game
-![Battleships Game](https://github.com/your_username/battleships-game/blob/main/image.jpg)
 
 Welcome to Battleships, a classic strategy game built with React and Axios. Sink your opponent's ships before they sink yours!
 
